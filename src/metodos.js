@@ -9,6 +9,7 @@ function llenar(){
         numeroAleatorio = Math.floor(Math.random() * 20) + 1
         arreglo[i] = numeroAleatorio
     }
+    console.log(arreglo)
 }
 
 function promedioArreglo(){
@@ -33,8 +34,17 @@ function mayoresPromedio(){
 }
 
 
-function sumaValor(aumentaArrelo){
-    arreglo.length = arreglo.length + aumentaArrelo
+function sumaValor(valor){
+var valor = (parseInt(prompt("Digite un valor por aumentar")))
+for (let index = 0; index < arreglo.length; index++) {
+    resultado = valor + arreglo[index]
+    console.log(resultado)
+}
+
+
+
+return valor
+
 }
 
 

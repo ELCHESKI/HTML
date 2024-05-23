@@ -33,8 +33,7 @@ do {
             console.log("Hay un total de " + mayoresPromedio() + " mayores al promedio")
             break;
         case 4://6
-            let sumarLargo = parseInt(prompt("¿Cuántos números quieres aumentar al arreglo?"))
-            sumaValor(sumarLargo)
+           sumaValor()
             break;
         case 5://7
             console.log("La suma total de impares es: " + sumaImPares())
