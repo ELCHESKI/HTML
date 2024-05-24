@@ -1,9 +1,4 @@
-let arreglo = []//1
-var largo = parseInt(prompt("Digite la cantidad de los elementos del arreglo"));
 
-let finalizar = false;
-
-construir(largo)//2
 
 do {
     var opcion = parseInt(prompt(
